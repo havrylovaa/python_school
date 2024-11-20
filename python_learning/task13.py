@@ -3,8 +3,8 @@
 # original_set = {"apple", "banana", "cherry", "date", "fig"}
 # items_to_remove = ["banana", "date"]
 def task13():
-    original_set = {"apple", "banana", "cherry", "date", "fig"}
-    items_to_remove = ["banana", "date"]
+    original_set = {"banana", "apple", "cherry", "date", "fig", "cucumber"}
+    items_to_remove = ["date", "banana", "cucumber"]
     for item in items_to_remove:
         original_set.remove(item)
     #     можно также использоать discard что исключит ошибку если во втором подмножестве будут слова, которых нет в первом подмножестве
