@@ -12,4 +12,5 @@ def task13():
     return original_set
 
 if __name__ == "__main__":
+    task13()
     print(task13())
