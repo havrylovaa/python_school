@@ -5,7 +5,7 @@
 
 def task12():
 
-    set1 = {1, 2, 3, 4, 5}
+    set1 = {5, 4, 3, 2, 1}
     set2 = {3, 4, 5}
 
     subset_sets = set2.issubset(set1)
